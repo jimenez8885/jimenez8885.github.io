@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PreformativeSchabel — Fan Page</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preformative Schabel | The Unofficial Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>PreformativeSchabel</h1>
-    <p>A student‑made fan page celebrating Mr. Schabel</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Why This Page Exists</h2>
-      <p>Welcome! This site is dedicated to appreciating Mr. Schabel’s energy, teaching style, and the memorable moments he brings to class.</p>
+    <nav class="navbar">
+        <div class="logo">PreformativeSchabel.com</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#quote-generator">Schabel-isms</a></li>
+            <li><a href="#lore">The Lore</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>The Legend. The Myth. <br><span class="highlight">The Schabel.</span></h1>
+            <p class="subtitle">Welcome to the only site dedicated to the greatest educator in the history of pre-formative assessments.</p>
+            <a href="#quote-generator" class="btn">Get Inspired</a>
+        </div>
+    </header>
+
+    <section id="quote-generator" class="content-section dark-bg">
+        <div class="container">
+            <h2><span class="chalk-text">Daily Schabel-isms</span></h2>
+            <div class="chalkboard">
+                <p id="quote-display">"Loading wisdom..."</p>
+                <p id="quote-context" class="context-text">- Schabel, probably.</p>
+            </div>
+            <button id="new-quote-btn" class="btn secondary-btn">Generate Wisdom</button>
+        </div>
     </section>
 
-    <section>
-      <h2>Highlights</h2>
-      <ul>
-        <li>Iconic sayings and class moments</li>
-        <li>Favorite lessons and projects</li>
-        <li>Student‑made art, memes, and tributes</li>
-      </ul>
+    <section id="lore" class="content-section light-bg">
+        <div class="container">
+            <h2>The Syllabus of Life</h2>
+            <div class="grid-layout">
+                <div class="card">
+                    <h3>The Origin Story</h3>
+                    <p>Rumor has it Schabel emerged from a dusty library archive in the late 90s, armed only with a red pen and a dream.</p>
+                </div>
+                <div class="card">
+                    <h3>The Preformative Method</h3>
+                    <p>Why wait for the summative assessment when you can excel at the preformative? It's not just a teaching style; it's a lifestyle.</p>
+                </div>
+                <div class="card">
+                    <h3>Fun Facts</h3>
+                    <ul>
+                        <li>Has never lost a piece of chalk.</li>
+                        <li>Can grade papers faster than a supercomputer.</li>
+                        <li>Coffee is their primary fuel source.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-      <h2>Get Involved</h2>
-      <p>More content is coming soon! If you want to contribute ideas, quotes, or stories, reach out.</p>
-    </section>
-  </main>
+    <footer>
+        <p>&copy; 2025 PreformativeSchabel.com | Made by the Students, for the Legend.</p>
+    </footer>
 
-  <footer>
-    <p>© 2025 PreformativeSchabel Fan Page</p>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
